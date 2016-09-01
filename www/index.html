@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>My App</title>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <!-- Path to Framework7 Library CSS-->
+    <link rel="stylesheet" href="css/framework7.ios.min.css">
+    <link rel="stylesheet" href="css/framework7.ios.colors.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css">
+  </head>
+  <body id="bg-login" class="theme-red">
+      <div class="view">
+        <div class="view view-main">
+          <div class="">
+            <div class="page-content">
+              <div class="login-screen-title">
+                <img src="img/logo-uni.png" width="200" height="auto" alt="" style="margin-top:20px;">
+              </div>
+                <div class="page-content">
+                          <div class="content-block">
+                            <!-- Buttons row as tabs controller -->
+                            <div class="buttons-row">
+                              <!-- Link to 1st tab, active -->
+                              <a href="#tab1" class="tab-link active button">Aluno</a>
+                              <!-- Link to 2nd tab -->
+                              <a href="#tab2" class="tab-link button">Responsável</a>
+                            </div>
+                          </div>
+                         <div class="tabs">
+                        <!-- Tab 1, active by default -->
+                        <div id="tab1" class="tab active">
+                          <div class="">
+                            <form>
+                                <div class="list-block inset">
+                                  <ul>
+                                    <li class="item-content">
+                                      <div class="item-inner">
+                                        <div class="item-title label">Aluno</div>
+                                        <div class="item-input">
+                                          <input type="text" name="username" placeholder="Aluno">
+                                        </div>
+                                      </div>
+                                    </li>
+                                    <li class="item-content">
+                                      <div class="item-inner">
+                                        <div class="item-title label">Senha</div>
+                                        <div class="item-input">
+                                          <input type="password" name="password" placeholder="Digite sua senha">
+                                        </div>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                </div>
+                                <div class="content-block">
+                                    <div class="row">
+                                        <div class="col-100">
+                                            <a href="lyceum-aluno.html" class="external button button-big color-red button-fill">Entrar</a>
+                                        </div>
+                                      <!-- <ul>
+                                        <li><a href="lyceum.html" class="external button button-fill">Entrar</a></li>
+                                      </ul> -->
+                                      <!-- <div class="list-block inset-label">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        <p><a href="#" class="close-login-screen">Close Login Screen</a></p>
+                                      </div> -->
+                                    </div>
+                                </div>
+                            </form>
+                          </div>
+                        </div>
+                        <!-- Tab 2 -->
+                        <div id="tab2" class="tab">
+                          <div class="">
+                            <form>
+                                <div class="list-block inset">
+                                  <ul>
+                                    <li class="item-content">
+                                      <div class="item-inner">
+                                        <div class="item-title label">Responsável</div>
+                                        <div class="item-input">
+                                          <input type="text" name="username" placeholder="Responsável">
+                                        </div>
+                                      </div>
+                                    </li>
+                                    <li class="item-content">
+                                      <div class="item-inner">
+                                        <div class="item-title label">Senha</div>
+                                        <div class="item-input">
+                                          <input type="password" name="password" placeholder="Digite sua senha">
+                                        </div>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                </div>
+                                <div class="content-block">
+                                    <div class="row">
+                                        <div class="col-100">
+                                            <a href="lyceum-responsavel.html" class="external button button-big color-red button-fill">Entrar</a>
+                                        </div>
+                                      <!-- <ul>
+                                        <li><a href="lyceum.html" class="external button button-fill">Entrar</a></li>
+                                      </ul> -->
+                                      <!-- <div class="list-block inset-label">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        <p><a href="#" class="close-login-screen">Close Login Screen</a></p>
+                                      </div> -->
+                                    </div>
+                                </div>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+  </body>
+</html>
